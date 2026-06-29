@@ -20,7 +20,6 @@ namespace Entities.Concrete
         // Navigation Properties
         public ICollection<UserOperationClaim> UserOperationClaims { get; set; } = new List<UserOperationClaim>();
 
-        public ICollection<Business> UserBusinesses { get; set; } = new List<Business>();
-        public ICollection<Reservation> Reservations { get; set; } = new List<Reservation>();
+        
     }
 }
